@@ -1,20 +1,79 @@
 
 body {
-  background-color: #d0e4fe;
+  background-color: #57b1a5;
   text-align: center;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
-  color: palevioletred;
+  color: palegoldenrod;
+  font-size: 100px;
+
+}
+#header {
+  font-family: "Courier New";
+  font-size: 30px;
+  color: palegoldenrod
 }
 
 p {
   font-family: "Courier New";
-  font-size: 30px;
+  font-size: 20px;
+  color: palegoldenrod;
+  display: block;
+  margin-left:100px;
+  margin-right: 100px;
 }
 
-#doge-image img {
+
+#neelie-image img {
   height: 140px;
   margin-top: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #318075;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: palegoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Courier New";
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: goldenrod;
+  color: white;
+}
+
+ul.social-buttons li a
+{
+  padding-top: 100px;
+  font-size:30px;
+  color:#318075;
+}
+ul.social-buttons li a:hover
+{
+  padding-top: 100px;
+  color: goldenrod;
+}
+
+#neelie-image img {
+  height: 340px;
+  margin-top: 100px;
+  padding: 50px 50px;
+
 }
